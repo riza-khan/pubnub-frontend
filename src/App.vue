@@ -48,6 +48,7 @@ body {
 
     &__title {
       border-bottom: solid 1px black;
+      padding: 1rem;
     }
 
     &__body {
@@ -56,6 +57,7 @@ body {
 
     &__footer {
       border-top: solid 1px black;
+      padding: 1rem;
     }
   }
 }
