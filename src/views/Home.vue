@@ -1,5 +1,10 @@
 <template>
   <div class="content">
+    <div class="content__header">
+      <img src="https://via.placeholder.com/50" alt="" />
+      <p>GodMode</p>
+    </div>
+
     <h1>Content goes here</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, fugit
@@ -27,5 +32,17 @@ export default defineComponent({
 <style lang="scss" scoped>
 .content {
   display: flex;
+  grid-gap: 1rem;
+  flex-direction: column;
+  padding: 1rem;
+
+  &__header {
+    display: flex;
+    grid-gap: 1rem;
+
+    p {
+      margin: auto 0;
+    }
+  }
 }
 </style>
